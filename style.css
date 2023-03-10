@@ -64,5 +64,79 @@ a:hover {
 
 h2, h3{
 
-  background-color: rgba(182, 201, 180, 0.5);
+  background-color: rgba(18, 26, 17, 0.5);
+  padding: 5px;
+  color: rgb(235, 222, 222);
+  font-weight: 250px ;
+}
+
+h2 {
+
+  margin-top: 0;
+
+}
+
+input[type="email"] {
+
+  width: 250px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: none;
+}
+
+input[type="submit"] {
+
+  background: #cccccc;
+  padding: 5px  15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+#ideas {
+
+  display: flex;
+  padding: 20px 0;
+}
+
+#ideas img  {
+
+  width: 100%;
+
+}
+
+.reletive {
+
+  position: relative;
+}
+
+
+.category {
+
+  position: absolute;
+  font-size: 90%;
+  top: 20px;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.middle {
+
+
+  margin: 0 85px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+}
+
+footer img{
+
+  max-width: 150px;
 }
